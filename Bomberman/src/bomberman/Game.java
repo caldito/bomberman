@@ -66,7 +66,7 @@ public class Game extends Constants {
 			
 			try{
 				// IMPORTANT THREAD METHOD
-				Thread.sleep((long) (1 / (double) G_FPS * 1000)); 
+				Thread.sleep((long) (1 / (double) G_FPS * 1000));
 				System.out.println(engine.getContador());
 				engine.setContador(engine.getContador()+1);
 			}catch(InterruptedException ie){

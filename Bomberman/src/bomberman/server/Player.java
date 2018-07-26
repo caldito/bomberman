@@ -18,7 +18,7 @@ public class Player {
 	private int x = 1;
 	private int y = 1;
 	 	
-	//Métodos
+	//Mï¿½todos
 	public void move(int x, int y) {
 		int direction = 0;
 		if (this.y > y) {//
@@ -33,7 +33,7 @@ public class Player {
 		frame = (frame + 1) % 5;
 	        if (this.health > 0 ) {
 
-	            sprite = "bomberman1" + direction + "" + (frame + 1) + ".png";///Efecto de movimiento con varias imágenes.
+	            sprite = "bomberman1" + direction + "" + (frame + 1) + ".png";///Efecto de movimiento con varias imï¿½genes.
 	        }else {
 	            sprite = "bomberman1" + "4" + "" + (frame + 1) + ".png";}
 	            if (frame==3){
