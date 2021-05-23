@@ -216,7 +216,7 @@ public class ClientManager extends Constants {
 		gui.gb_setSpriteImage(0, player.getSprite());
 		gui.gb_moveSpriteCoord(0, player.getX(), player.getY());
 		System.out.println("Ubicacion del jugador:("+player.getX()+","+player.getY()+")");
-		System.out.println("Frame del jugador número "+ player.getFrame());
+		System.out.println("Frame del jugador numero "+ player.getFrame());
 		gui.gb_repaintBoard();
 	}
 

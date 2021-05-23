@@ -35,7 +35,7 @@ public class Constants {
     public static final int G_ENEMY2 = 1;//10;
     public static final int G_ENEMY3 = 0;//10;
     
-    //Tiempo de explosión
+    //Tiempo de explosion
     public static final int T_EXPLOSION = 3;
     public static final int T_FUEGO = 20;
     
