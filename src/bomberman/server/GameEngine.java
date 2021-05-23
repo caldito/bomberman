@@ -109,9 +109,9 @@ public class GameEngine extends Constants {
 	}
 
 	/**
-	 * Añade mensajes a la lista para ser mostrados en la consola de juego 
-	 * - Se deben juntar a los existentes con un \n para separar líneas 
-	 * - Se pueden además imprimir en la consola de java para facilitar la depuraciÃ³n
+	 * Agrega mensajes a la lista para ser mostrados en la consola de juego 
+	 * - Se deben juntar a los existentes con un \n para separar lineas 
+	 * - Se pueden ademas imprimir en la consola de java para facilitar la depuraciÃ³n
 	 * 
 	 * @param newMessage
 	 *            Mensaje a aÃ±adir
@@ -167,16 +167,16 @@ public class GameEngine extends Constants {
 	}
 
 	/**
-	 * Recibe la última acción realizada por el usuario en el interfaz 
-	 * "left": se presionó la flecha hacia la izquierda. 
-	 * "right": se presionó la flecha hacia la derecha. 
-	 * "up": se presionó la flecha hacia la arriba. 
-	 * "down": se presionó la flecha hacia abajo. 
-	 * "new game <username>":se presionó el botón de nuevo juego. 
+	 * Recibe la ultima accion realizada por el usuario en el interfaz 
+	 * "left": se presiono la flecha hacia la izquierda. 
+	 * "right": se presiono la flecha hacia la derecha. 
+	 * "up": se presiono la flecha hacia la arriba. 
+	 * "down": se presiono la flecha hacia abajo. 
+	 * "new game <username>":se presiono el boton de nuevo juego. 
 	 * "command <thecommand>":se introdujo un comando en la consola.
 	 * 
 	 * @param lastAction
-	 *            última acción realizada por el usuario
+	 *            ultima accion realizada por el usuario
 	 */
 	public void performAction(String lastAction) {
 

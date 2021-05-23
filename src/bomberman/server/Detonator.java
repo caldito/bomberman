@@ -19,7 +19,7 @@ public class Detonator {
 		setTiempo(tiempo + Constants.G_FPS * Constants.T_EXPLOSION);
 	}
 
-	// Métodos
+	// Metodos
 	
 	//Para detonar una bomba
 	public void Detonate(Square[][] map,int fire, long tiempo) {
@@ -28,7 +28,7 @@ public class Detonator {
 		
 		int i;
 		
-		//Explosión arriba
+		//Explosion arriba
 		for (i = 0;map[casillaX][casillaY + i +1].getType()!=Constants.S_WALL && i < fire;i++) {
 			System.out.println(i);
 		}
@@ -45,7 +45,7 @@ public class Detonator {
 			}
 		}
 		
-		//Explosión derecha
+		//Explosion derecha
 		for (i = 0;map[casillaX + i +1][casillaY].getType()!=Constants.S_WALL && i < fire;i++) {}
 		for (int j = 0;j <= i;j++){
 			if(j == 0) {
@@ -59,7 +59,7 @@ public class Detonator {
 			}
 		}
 		
-		//Explosión izquierda
+		//Explosion izquierda
 		for (i = 0;map[casillaX - i - 1][casillaY].getType()!=Constants.S_WALL && i < fire;i++) {}
 		for (int j = 0;j <= i;j++){
 			if(j == 0) {
@@ -73,7 +73,7 @@ public class Detonator {
 			}
 		}
 		
-		//Explosión arriba
+		//Explosion arriba
 		for (i = 0;map[casillaX][casillaY - i - 1].getType()!=Constants.S_WALL && i < fire;i++) {}
 		for (int j = 0;j <= i;j++){
 			if(j == 0) {
@@ -91,7 +91,7 @@ public class Detonator {
 	
 	}
 	
-	// Para apagar la explosión de la bomba
+	// Para apagar la explosion de la bomba
 	public void antiDetonate(Square[][] map,int fire) {
 		map[casillaX][casillaY].setType(Constants.S_NONE);
 		int i;
