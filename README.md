@@ -3,6 +3,8 @@
 ## Introduction
 The classical game Bomberman, built with Java. It was the final assignment of the university programming course.
 
+![game image](game-image.png)
+
 ## Usage
 Runs on Java 8 and newer versions. It only depends on a jar which is contained in the repository and on Java standard libraries.
 
